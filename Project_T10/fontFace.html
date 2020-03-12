@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@font-face用法</title>
+    <style>
+        @font-face {
+            font-family: myFont1;
+            src:url('font-awesome-4.7.0/fonts/FZZhiATJW.TTF');
+            font-family: myFont2;
+            src: url("font-awesome-4.7.0/fonts/FZZJ-LXBYTJW.TTF");
+            font-family: myFont3;
+            src: url("font-awesome-4.7.0/fonts/FZZJ-HFXCJW.TTF");
+        }
+        #id1 {
+            font-family: myFont1;
+            font-size: 4em;
+        }
+        #id2 {
+            font-family: myFont2;
+            font-size: 4em;
+        }
+        #id3 {
+            font-family: myFont3;
+            font-size: 4em;
+        }
+    </style>
+</head>
+<body>
+    <div id="id1">
+        使用@font-face，应用漂亮的web字体
+    </div>
+    <div id="id2">
+        使用字体2
+    </div>
+    <div id="id3">
+        使用字体3
+    </div>
+</body>
+</html>
